@@ -1,6 +1,6 @@
 {
   "name": "@willowswt/sec-edgar-companies-house-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streamable-HTTP & stdio MCP server for US SEC EDGAR 10-K/10-Q/8-K filings & XBRL financials, UK Companies House registries & officers, and GLEIF global LEI parent/subsidiary ownership trees.",
   "type": "module",
   "main": "src/index.js",

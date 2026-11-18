@@ -1,16 +1,26 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.willowswt/sec-edgar-companies-house-mcp",
-  "description": "Streamable-HTTP & stdio MCP server for US SEC EDGAR 10-K/10-Q/8-K filings & XBRL financials, UK Comp",
+  "title": "SEC EDGAR, UK Companies House & Global LEI MCP",
+  "description": "US SEC EDGAR 10-K/10-Q filings & XBRL financials, UK Companies House registries & GLEIF LEI trees.",
   "version": "1.0.0",
+  "websiteUrl": "https://apify.com/church_of_loujess/sec-edgar-companies-house-mcp",
   "repository": {
     "url": "https://github.com/willowswt/sec-edgar-companies-house-mcp",
     "source": "github"
   },
   "remotes": [
     {
-      "transport_type": "streamable-http",
-      "url": "https://church-of-loujess--sec-edgar-companies-house-mcp.apify.actor/mcp"
+      "type": "streamable-http",
+      "url": "https://church-of-loujess--sec-edgar-companies-house-mcp.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <YOUR_APIFY_API_TOKEN> (free $5/mo credit at https://console.apify.com/settings/integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
