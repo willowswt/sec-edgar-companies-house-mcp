@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.willowswt/sec-edgar-companies-house-mcp",
+  "description": "Streamable-HTTP & stdio MCP server for US SEC EDGAR 10-K/10-Q/8-K filings & XBRL financials, UK Comp",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/willowswt/sec-edgar-companies-house-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://church-of-loujess--sec-edgar-companies-house-mcp.apify.actor/mcp"
+    }
+  ]
+}

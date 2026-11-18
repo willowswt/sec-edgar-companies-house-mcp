@@ -1,0 +1,36 @@
+{
+  "name": "@willowswt/sec-edgar-companies-house-mcp",
+  "version": "1.0.0",
+  "description": "Streamable-HTTP & stdio MCP server for US SEC EDGAR 10-K/10-Q/8-K filings & XBRL financials, UK Companies House registries & officers, and GLEIF global LEI parent/subsidiary ownership trees.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "sec-edgar-companies-house-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "sec-edgar",
+    "xbrl",
+    "companies-house",
+    "gleif",
+    "finance",
+    "fintech",
+    "apify"
+  ],
+  "homepage": "https://apify.com/church_of_loujess/sec-edgar-companies-house-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowswt/sec-edgar-companies-house-mcp.git"
+  },
+  "author": "Church of LouJess",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
